@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Supercode</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="game-board">
+      <h1>Supercode</h1>
+      <button id="start-button">Spiel starten</button>
+      <div id="timer" style="font-size: 18px; margin: 10px 0">00:00</div>
+      <div id="highscore" style="font-size: 16px; color: #444">
+        Highscore: --:--
+      </div>
+
+      <div id="guesses"></div>
+      <hr />
+      <div id="code-input">
+        <div class="color-options">
+          <div class="color-select">
+            <div class="color-display"></div>
+            <div class="color-list"></div>
+          </div>
+          <div class="color-select">
+            <div class="color-display"></div>
+            <div class="color-list"></div>
+          </div>
+          <div class="color-select">
+            <div class="color-display"></div>
+            <div class="color-list"></div>
+          </div>
+          <div class="color-select">
+            <div class="color-display"></div>
+            <div class="color-list"></div>
+          </div>
+        </div>
+        <button id="submit-guess">Submit Guess</button>
+      </div>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
